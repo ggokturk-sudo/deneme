@@ -17,6 +17,8 @@ public class JavaApplication4 {
     public static void main(String[] args) {
         NewClass a = new NewClass(1, "deneme2");
         System.out.println(a.getDeneme() + a.getDeneme2());
+        NewClass1 b = new NewClass1();
+        b.den();
     }
     
 }
